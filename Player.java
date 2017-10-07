@@ -3,7 +3,7 @@ package edu.byu.cs.team18.tickettoride.Common;
 
 public class Player {
 
-    private String playerID; //we may not need this if we just use the userID
+    private int playerID; //we may not need this if we just use the userID
     private String playerName;
     private enum Color{RED, BLUE, GREEN, YELLOW, BLACK}
     private Color color;
@@ -11,7 +11,7 @@ public class Player {
     //CONSTRUCTOR-----------------------------------------------------------------------------------
 
 
-    public Player(String playerID, String playerName, Color color) {
+    public Player(int playerID, String playerName, Color color) {
         this.playerID = playerID;
         this.playerName = playerName;
         this.color = color;
@@ -26,5 +26,13 @@ public class Player {
     public void changePlayerColor(Color color) //need a way to find which colors have already been taken
     {
         this.color=color;
+    }
+
+    public String getPlayerName(){
+	return playerName;
+    }
+
+    public int getPlayerID(){
+	return playerID;
     }
 }
