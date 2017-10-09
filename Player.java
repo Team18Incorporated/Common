@@ -3,7 +3,7 @@ package edu.byu.cs.team18.tickettoride.Common;
 
 public class Player {
 
-    private int playerID; //we may not need this if we just use the userID
+    private String playerID; //we may not need this if we just use the userID
     private String playerName;
     private enum Color{RED, BLUE, GREEN, YELLOW, BLACK}
     private Color color;

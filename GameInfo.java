@@ -6,10 +6,11 @@ import java.util.List;
 
 public class GameInfo {
 
-    private int gameID;
+    private String gameID;
     private int numPlayers;
     private ArrayList<Player> playerList;
     private ArrayList<String> playerNames;
+    private boolean hasStarted = false;
 
     //CONSTRUCTOR-----------------------------------------------------------------------------------
 
@@ -31,4 +32,8 @@ public class GameInfo {
     public ArrayList<String> getPlayerNames() {
         return playerNames;
     }
+    public boolean hasStarted(){
+        return hasStarted;
+    }
+    public String getGameID(){ return gameID};
 }
