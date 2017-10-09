@@ -1,7 +1,7 @@
-package edu.byu.cs.team18.tickettoride;
+package edu.byu.cs.team18.tickettoride.Common;
 
 import java.util.ArrayList;
-
+import java.util.List;
 
 
 public class GameInfo {
@@ -15,7 +15,7 @@ public class GameInfo {
 
     public GameInfo(int gameID, List<Player> playerList) {
         this.gameID = gameID;
-        this.playerList=playerList;
+        this.playerList=(ArrayList<Player>)playerList;
         numPlayers=this.playerList.size();
         for(int i=0; i<numPlayers; i++)
         {

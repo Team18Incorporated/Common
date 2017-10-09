@@ -1,4 +1,4 @@
-package Common;
+package edu.byu.cs.team18.tickettoride.Common;
 
 
 public interface IServer {

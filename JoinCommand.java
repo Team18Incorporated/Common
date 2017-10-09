@@ -1,7 +1,6 @@
-package com.example.abram.phase1main.Commands;
+package edu.byu.cs.team18.tickettoride.Common;
 
-import com.example.abram.phase1main.ModelClasses.AuthToken;
-import com.example.abram.phase1main.Results.CommandResult;
+
 
 /**
  * Created by abram on 10/2/2017.
